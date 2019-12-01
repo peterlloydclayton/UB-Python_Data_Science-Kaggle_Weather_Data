@@ -15,7 +15,8 @@ def fileReader():
     city = pd.read_csv('city_attributes.csv')
     return windSPD,windDir,weatherDesc,temp,pressure,humid,city
 
-def avgPerYear(df,year,city):
+#
+def avgPerYear(df,year):
     avg=df[df['datetime'].str.contains(year)]
     return avg.mean()
 
