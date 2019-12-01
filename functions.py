@@ -1,8 +1,20 @@
 #This is purely a file to contain functions
-
-#Read in the file
-
+import pandas as pd 
+from wordcloud import WordCloud
+import numpy as np
+import matplotlib.pyplot as plt
 #Pass the dataframe, selected city and chosen year.
+#Read in the files
+def fileReader():
+    windSPD = pd.read_csv('wind_speed.csv')
+    windDir = pd.read_csv('wind_direction.csv')
+    weatherDesc = pd.read_csv('weather_description.csv')
+    temp = pd.read_csv('temperature.csv')
+    pressure = pd.read_csv('pressure.csv')
+    humid = pd.read_csv('humidity.csv')
+    city = pd.read_csv('city_attributes.csv')
+    return windSPD,windDir,weatherDesc,temp,pressure,humid,city
+
 def avgPerYear(df,year,city):
     avg=df[df['datetime'].str.contains(year)]
     return avg.mean()
