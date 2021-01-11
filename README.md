@@ -13,7 +13,7 @@ This project utilised the weather dataset available here:
 https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
 ## Project tracking:
-Utilised Kanban system which is under Prjects tab in Github.
+Utilised Kanban system which is under Projects tab in Github.
 
 ## Dataset Overview
 The dataset was had a lot of missing data.
