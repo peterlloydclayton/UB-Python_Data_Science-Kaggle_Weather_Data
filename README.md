@@ -22,6 +22,6 @@ Overall, would not say this is a good dataset.
 For More Details please see: Final Project Report For Python For Data Science Class
 
 ## Collaborators
-Dechamma Mandetira Umesh
-Peter Clayton
+Dechamma Mandetira Umesh,
+Peter Clayton,
 Scott Jameson (Team Lead)
